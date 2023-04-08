@@ -4,14 +4,14 @@ dir_tree: !!python/object:jmcomic.jm_option.DownloadDirTree
   flag: Bd_Author_Title_Image
 
 disable_jm_module_debug: false
-download_convert_image_suffix: .png
+download_convert_image_suffix: null
 download_image_then_decode: true
 download_multi_thread_photo_batch_count: 15 # 一次多线程批量下载的数量，太多了禁漫服务器可能顶不住
 download_multi_thread_photo_len_limit: 35
 download_use_disk_cache: true
 
 client_config:
-  domain: 18comic.vip
+  domain: jm-comic1.cc
   retry_times: 5 # 请求失败时，重试的次数，配个正数就行，不配默认是5
   postman_type: cffi
   postman_type_list:
